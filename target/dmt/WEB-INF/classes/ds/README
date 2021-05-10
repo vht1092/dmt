@@ -1,0 +1,8 @@
+- Cot STATUS duoi DATABASE:
++ STATUS = '1': Case da bi xoa
+
+- Cot CRD_CRE_TMS la khoa chinh cua bang disputes_iss_ebank_v2
++ Case thuoc bang oa008, oa150, ib009: CRD_CRE_TMS co 26 ky tu so. VD: 20190101909939171000000000(Cot create_times + 000000000)
++ Case thuoc bang ib006: CRD_CRE_TMS co 26 ky tu so: VD: 20190101800000336996989721(NgayGD + LOC + APP_Code)
+
+- Trang Tạo Mới case sẽ có 1 field name = "selectedTrxn" dung de chua ID cua case khi user click chọn GD de tao case.
